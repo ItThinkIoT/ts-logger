@@ -1,6 +1,6 @@
 {
   "name": "@itthink/ts-logger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
   "description": "Simple Colored Logger for Typescript",
   "main": "dist/index.js",
