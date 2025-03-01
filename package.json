@@ -10,10 +10,11 @@
   "repository": "git@github.com:ItThinkIoT/ts-logger.git",
   "author": "Guilherme Gregorini <guihgo100milha@gmail.com>",
   "license": "MIT",
+  "private": false,
   "scripts": {
     "dev": "tsx watch src/index.ts",
-    "build": "rm rf ./dist && tsc -b tsconfig.json",
-    "pub": "npm run build && npm run publish"
+    "build": "rm -rf ./dist && tsc -b tsconfig.json",
+    "pub": "npm run build && npm publish --access=public"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
