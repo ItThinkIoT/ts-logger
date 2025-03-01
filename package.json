@@ -1,0 +1,24 @@
+{
+  "name": "ts-logger",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Simple Colored Logger for Typescript",
+  "main": "dist/index.js",
+  "files": [
+    "./dist"
+  ],
+  "repository": "git@github.com:ItThinkIoT/ts-logger.git",
+  "author": "Guilherme Gregorini <guihgo100milha@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "rm rf ./dist && tsc -b tsconfig.json",
+    "pub": "npm run build && npm run publish"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.8",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
